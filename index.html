@@ -48,7 +48,7 @@
     
     <div class="article-meta">
       <a href="/2015/08/04/从浏览器地址栏输入 URL 到显示页面的步骤(以HTTP为例)/" class="article-date">
-  <time datetime="2015-08-04T12:24:30.000Z" itemprop="datePublished">2015-08-04</time>
+  <time datetime="2015-08-04T12:31:44.000Z" itemprop="datePublished">2015-08-04</time>
 </a>
       
       
@@ -112,7 +112,7 @@
 </ul>
 </li>
 <li>根据DOM树和CSSOM树构建渲染树:<ul>
-<li>从DOM树的根节点遍历所有<strong>可见节点</strong>，不可见节点包括：<br> 1）<code>script</code>,<code>meta</code>这样本身不可见的标签。<br> 2) 被css隐藏的节点，如<code>display: none</code></li>
+<li>从DOM树的根节点遍历所有<strong>可见节点</strong>，不可见节点包括：<br>  1）<code>script</code>,<code>meta</code>这样本身不可见的标签。<br>  2) 被css隐藏的节点，如<code>display: none</code></li>
 <li>对每一个可见节点，找到恰当的CSSOM规则并应用</li>
 <li>发布可视节点的内容和计算样式</li>
 </ul>
@@ -166,48 +166,6 @@
 </ul>
 <p>经改造，这段代码较合理的长相是这样：<br><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">span</span> <span class="attribute">style</span>=<span class="value">"color: #ff00ff; font-size: 16px; background-color: #ffffff;"</span>&gt;</span><span class="tag">&lt;<span class="title">p</span>&gt;</span>我要从南走到北，还要从白走到黑。<span class="tag">&lt;/<span class="title">p</span>&gt;</span><span class="tag">&lt;<span class="title">p</span>&gt;</span>听见他在唱：<span class="tag">&lt;<span class="title">br</span>/&gt;</span><span class="tag">&lt;<span class="title">q</span>&gt;</span>只不过是一场生活...<span class="tag">&lt;/<span class="title">q</span>&gt;</span><span class="tag">&lt;/<span class="title">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">span</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
 <p>我们按照Web标准编写代码，write less，do more。兼容性更好，易用易读易维护，易被搜索引擎抓取收录。</p>
-
-      
-    </div>
-  
-  </div>
-  
-</article>
-
-
-    
-      <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/08/03/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      <a href="/2015/08/03/hello-world/" class="article-date">
-  <time datetime="2015-08-04T02:56:16.000Z" itemprop="datePublished">2015-08-03</time>
-</a>
-      
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
       
     </div>
