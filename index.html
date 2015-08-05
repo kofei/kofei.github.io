@@ -42,6 +42,67 @@
   </div>
 </header>
     <section id="main" class="outer">
+      <article id="post-再来一发 —— 如何进行网站性能优化" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+    <div class="article-meta">
+      <a href="/2015/08/04/再来一发 —— 如何进行网站性能优化/" class="article-date">
+  <time datetime="2015-08-05T05:43:33.000Z" itemprop="datePublished">2015-08-04</time>
+</a>
+      
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="再来一发_——_如何进行网站性能优化">再来一发 —— 如何进行网站性能优化</h1><blockquote>
+<p><a href="https://developer.yahoo.com/performance/rules.html" target="_blank" rel="external">YAHOO! Best Practices for Speeding Up Your Web Site</a></p>
+<h2 id="Content">Content</h2><ul>
+<li>减少 HTTP 请求：合并文件、CSS 精灵、inline Image</li>
+<li>减少 DNS 查询：DNS 查询完成之前浏览器不能从这个主机下载任何任何文件。方法：DNS 缓存、将资源分布到恰当数量的主机名，平衡并行下载和 DNS 查询</li>
+<li>避免重定向：多余的中间访问</li>
+<li>使 Ajax 可缓存</li>
+<li>非必须组件延迟加载</li>
+<li>未来所需组件预加载</li>
+<li>减少 DOM 元素数量</li>
+<li>将资源放到不同的域下：浏览器同时从一个域下载资源的数目有限，增加域可以提高并行下载量</li>
+<li>减少 iframe 数量</li>
+<li>不要 404<h2 id="Server">Server</h2></li>
+<li>使用 CDN</li>
+<li>添加 Expires 或者 Cache-Control 响应头</li>
+<li>对组件使用 Gzip 压缩</li>
+<li>配置 ETag</li>
+<li>Flush Buffer Early</li>
+<li>Ajax 使用 GET 进行请求</li>
+<li>避免空 src 的 img 标签<h2 id="Cookie">Cookie</h2></li>
+<li>减小 cookie 大小</li>
+<li>引入资源的域名不要包含 cookie<h2 id="CSS">CSS</h2></li>
+<li>将样式表放到页面顶部</li>
+<li>避免使用 CSS 表达式</li>
+<li>不使用 @import</li>
+<li>不使用 IE 的 Filter<h2 id="JavaScript">JavaScript</h2></li>
+<li>将脚本放到页面底部</li>
+<li>将 JavaScript 和 CSS 从外部引入</li>
+<li>压缩 JavaScript 和 CSS</li>
+<li>删除不需要的脚本</li>
+<li>减少 DOM 访问</li>
+<li>合理设计事件监听器<h2 id="Image">Image</h2></li>
+<li>优化图片：根据实际颜色需要选择色深、压缩</li>
+<li>优化 CSS 精灵</li>
+<li>不要在 HTML 中拉伸图片</li>
+<li>保证 favicon.ico 小并且可缓存</li>
+</ul>
+</blockquote>
+
+      
+    </div>
+  
+  </div>
+  
+</article>
+
+
+    
       <article id="post-【读书】高性能网站建设指南 High Performance Web Sites" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
